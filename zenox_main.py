@@ -55,7 +55,6 @@ def stream_ai_response(response_stream):
 
 def get_working_model():
     """Finds the best available model for your specific API key."""
-    # Preferred order: 3.0 -> 2.5 -> 1.5-flash-latest
     preferred = ['gemini-3-flash-preview', 'gemini-2.5-flash', 'gemini-1.5-flash-latest']
     
     try:
@@ -67,7 +66,7 @@ def get_working_model():
                 return model
         return available[0] if available else None
     except Exception:
-        return 'gemini-2.5-flash' # Default fallback
+        return 'gemini-2.5-flash'
 
 def main():
     print_zenox_logo()
