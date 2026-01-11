@@ -1,3 +1,5 @@
+![image alt](https://github.com/AymennX/Zenox-AI/blob/main/zenox.png?raw=true)
+
 # ZENOX-CLI v3.0
 
 **ZENOX is a high-performance, terminal-based artificial intelligence interface engineered for Google Gemini models. It provides a low-latency, streamlined environment for interfacing with LLMs directly via the command line.**
